@@ -1,0 +1,52 @@
+.counter{
+
+    
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__title{
+        font-size: 5.5rem;
+    }
+}
+
+#value{
+    margin: 3rem 0 4rem 0 ;
+    font-size: 4rem;
+}
+
+
+.button__container{
+
+
+     &-decrease,
+     &-reset,
+    &-increase{
+        text-transform: capitalize;
+        padding: 1.3rem 6rem;
+        margin-left: 2rem;
+        background-color: transparent;
+        font-size: 2rem;
+        cursor: pointer;
+        border: 1px solid turquoise;
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+     transition: all 1s;
+     border-radius: .3rem;
+    }
+
+
+    &-decrease:hover,
+    &-reset:hover,
+    &-increase:hover{
+     background-color: turquoise;
+     
+    }
+
+
+
+}
+
+
+
+

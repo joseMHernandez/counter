@@ -1,0 +1,60 @@
+.counter {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.counter__title {
+  font-size: 5.5rem;
+}
+
+#value {
+  margin: 3rem 0 4rem 0;
+  font-size: 4rem;
+}
+
+.button__container-decrease, .button__container-reset, .button__container-increase {
+  text-transform: capitalize;
+  padding: 1.3rem 6rem;
+  margin-left: 2rem;
+  background-color: transparent;
+  font-size: 2rem;
+  cursor: pointer;
+  border: 1px solid turquoise;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  border-radius: .3rem;
+}
+
+.button__container-decrease:hover, .button__container-reset:hover, .button__container-increase:hover {
+  background-color: turquoise;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #EAEFB1;
+}
